@@ -27,7 +27,7 @@ You need two free apps.
 
 1. Download it from **https://desktop.github.com** and sign in with your GitHub account.
 2. Click **File → Clone Repository → URL**.
-3. Paste this link: `REPLACE_WITH_REPO_URL`
+3. Paste this link: `https://github.com/Giansingh4710/GeevoHerbs`
 4. Choose where to save it (for example your Desktop) and click **Clone**.
 
 You now have a `GeevoHerbs` folder on your computer.
