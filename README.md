@@ -77,9 +77,37 @@ When you're happy with how it looks:
 2. At the bottom left, type a short note, like *"Updated price"*.
 3. Click **Commit to main**, then **Push origin** (top bar).
 
-If the site is connected to a host, it updates on the internet within a minute or two.
+The live website updates automatically within a minute or two.
 
 > You can also just ask the AI: *"Save and push my changes to GitHub."*
+
+---
+
+## 5. The live website
+
+The site is hosted for free on **GitHub Pages**:
+
+**https://giansingh4710.github.io/GeevoHerbs/**
+
+Every time you **Push** (step 4), it updates automatically. To check whether an update has finished, open the repository on github.com and click the **Actions** tab. A green check ✓ means it's live.
+
+### Connecting your own domain (like `geevo.shop`)
+
+1. On github.com, open this repository → **Settings → Pages**.
+2. Under **Custom domain**, type your domain (e.g. `geevo.shop`) and click **Save**.
+3. Log in to wherever you bought the domain (GoDaddy, Namecheap, Squarespace…) and open its **DNS settings**. Add these records:
+
+   | Type | Name / Host | Value |
+   |---|---|---|
+   | A | `@` | `185.199.108.153` |
+   | A | `@` | `185.199.109.153` |
+   | A | `@` | `185.199.110.153` |
+   | A | `@` | `185.199.111.153` |
+   | CNAME | `www` | `giansingh4710.github.io` |
+
+4. Wait a few minutes to a few hours. Then go back to **Settings → Pages** and tick **Enforce HTTPS**.
+
+> Not sure? Ask the AI: *"Help me connect my domain geevo.shop to GitHub Pages."*
 
 ---
 

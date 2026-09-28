@@ -31,4 +31,4 @@ Static marketing site for Geevo Herbs (Ayurvedic wellness brand). Plain HTML + C
 
 ## Saving / publishing
 
-If asked to "save", "publish" or "push": commit with a short plain message and push to `main`. The host (Netlify) redeploys automatically.
+If asked to "save", "publish" or "push": commit with a short plain message and push to `main`. GitHub Pages (https://giansingh4710.github.io/GeevoHerbs/) redeploys automatically from `main`.
